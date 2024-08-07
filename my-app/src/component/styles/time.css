@@ -1,0 +1,31 @@
+.time-block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.time-block .container {
+  box-shadow: none;
+}
+.phoneTime {
+  filter: drop-shadow(-16px 20px 5px rgba(0, 0, 0, 0.15));
+}
+
+.downloadBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  background-color: var(--color-violet-main);
+  border-radius: 24px;
+  padding: 8px 1rem;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.downloadBtn:hover {
+  background-color: #3d2e87d3;
+}
