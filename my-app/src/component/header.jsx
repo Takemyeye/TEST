@@ -9,10 +9,18 @@ export function Header () {
       </div>
       <div className="rightPanel">
         <div className="menu">
-          <div className="t2">About us</div>
-          <div className="t2">Features</div>
-          <div className="t2">Blog</div>
-          <div className="t2">Contact</div>
+          <a href="/">
+            <div className="t2">About us</div>
+          </a>
+          <a href="/">
+            <div className="t2">Features</div>
+          </a>
+          <a href="/">
+            <div className="t2">Blog</div>
+          </a>
+          <a href="/">
+            <div className="t2">Contact</div>
+          </a>
         </div>
         <div className="btn">
           <div className=".t3-accent">

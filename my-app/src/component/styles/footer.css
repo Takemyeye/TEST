@@ -4,7 +4,7 @@ footer {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  padding-bottom: 4rem;
+  padding: 8rem 0;
   gap: 2rem;
 }
 
@@ -82,4 +82,39 @@ footer {
   justify-content: center;
   flex-direction: row;
   gap: 4px;
+}
+
+.footer-rightPanel :nth-child(5) {
+  display: none;
+}
+
+@media all and (max-width: 1240px) {
+  .footer-rightPanel {
+    gap: 1rem;
+  }
+  footer {
+    gap: 1rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-leftPanel :nth-child(3) {
+    display: none;
+  }
+
+  .footer-rightPanel :nth-child(5) {
+    display: flex;
+  }
+  
+  .footer-rightPanel {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
 }

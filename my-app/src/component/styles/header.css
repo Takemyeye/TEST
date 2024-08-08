@@ -11,6 +11,7 @@ top: 54px;
 font-family: 'Encode Sans';
 font-style: normal;
 z-index: 1;
+animation: opacity 1s ease-in-out forwards;
 }
 
 .logo {
@@ -20,7 +21,6 @@ display: flex;
 flex-direction: row;
 align-items: flex-start;
 isolation: isolate;
-margin: 0 auto;
 width: 24px;
 height: 16px;
 /* Inside auto layout */
@@ -63,11 +63,7 @@ border-radius: 20px;
 display: flex;
 flex-direction: row;
 align-items: center;
-padding: 0px;
-gap: 48px;
-margin: 0 auto;
-width: 513px;
-height: 32px;
+gap: 3rem;
 
 /* Inside auto layout */
 flex: none;
@@ -101,8 +97,22 @@ box-shadow: 5px 26px 15px rgba(0, 0, 0, 0.14);
 border-radius: 24px;
 color: white;
 transition: 0.3s ease-in-out;
+cursor: pointer;
 }
 
 .btn:hover {
   background: #6827adce;
+}
+
+@media all and (max-width: 768px ) {
+  header {
+    justify-content: space-around;
+    gap: 4rem;
+  }
+  .menu {
+    display: none;
+  }
+  .rightPanel {
+    justify-content: end;
+  }
 }

@@ -6,4 +6,7 @@ main {
   flex-direction: column;
   overflow: hidden;
   gap: 1rem;
+  font-family: 'Encode Sans';
+  font-style: normal;
+  line-height: 120%;
 }

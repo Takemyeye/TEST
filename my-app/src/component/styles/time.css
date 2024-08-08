@@ -30,3 +30,17 @@
 .downloadBtn:hover {
   background-color: #3d2e87d3;
 }
+
+@media all and ( max-width: 768px ) {
+  .time-block {
+    flex-direction: column;
+  }
+  .time-block .container {
+    width: 90%;
+    padding: 0;
+  }
+
+  .text-block {
+    width: 40%;
+  }
+}

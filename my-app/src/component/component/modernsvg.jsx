@@ -100,17 +100,7 @@ export function ModernSvg () {
           </linearGradient>
           </defs>
         </svg>
-        <div className="svgAbsolute">
-          <svg width="595" height="538" viewBox="0 0 595 538" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M266.5 517C119.316 517 0 401.266 0 258.5C0 115.734 119.316 0 266.5 0C341.979 0 409.866 39.3779 458.098 97C477.899 127.5 534.9 190.3 594.5 195.5V538C577.5 534.667 536 522.8 506 502C468.5 476 468 470 431.5 470.5C395 471 393.5 484 359 496.5C330.6 510.5 285.5 516 266.5 517Z" fill="url(#paint0_linear_38_200)"/>
-            <defs>
-            <linearGradient id="paint0_linear_38_200" x1="251.5" y1="167" x2="297.25" y2="538" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#432E8D"/>
-            <stop offset="1" stop-color="#842DD6"/>
-            </linearGradient>
-            </defs>
-          </svg>
-        </div>
+        <div className="svgAbsolute"></div>
 
     </div>
   )

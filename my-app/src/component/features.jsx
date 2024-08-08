@@ -15,8 +15,8 @@ export function Features () {
           your new App
         </div>
       </div>
-      <SVG/>
       <MainIllustration/>
+      <SVG/>
     </div>
   )
 }

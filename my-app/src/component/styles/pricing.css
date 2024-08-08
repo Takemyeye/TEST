@@ -1,0 +1,126 @@
+.pricing {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 8rem;
+  padding: 8rem 0;
+}
+
+.pricing-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 1rem;
+}
+
+.pricing-block h1 {
+  color: var(--color-violet-secondary);
+}
+
+.pricing-block .t1 {
+  color: var(--color-violet-main);
+  font-weight: 500;
+  text-align: center;
+}
+
+.pricing-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.151);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  max-width: 380px;
+  gap: 2rem;
+  padding: 2rem;
+  z-index: 2;
+}
+
+.card h1 {
+  color: var(--color-violet-secondary);
+}
+
+.card h2 {
+  color: var(--color-violet-main);
+}
+
+.card-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-violet-secondary);
+}
+
+.startbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  border-radius: 24px;
+  padding: 8px 3rem;
+  background-color: var(--color-violet-main);
+  color: white;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.whitebtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  padding: 8px 3rem;
+  width: 100px;
+  color: var(--color-violet-main);
+  background-color: white;
+  transition: 0.3s ease-in-out;
+  border: 1px solid var(--color-violet-main);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.whitebtn:hover {
+  background-color: var(--color-violet-main);
+  color: white;
+}
+
+.leftCard {
+  z-index: 1;
+  width: 100%;
+  max-width: 380px;
+}
+
+.rightCard {
+  z-index: 1;
+  width: 100%;
+  max-width: 380px;
+}
+
+@media all and (max-width: 920px ) {
+  .pricing-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .card {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 20px;
+  }
+  .leftCard {
+    order: 1;
+  }
+}

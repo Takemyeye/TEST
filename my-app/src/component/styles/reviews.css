@@ -1,15 +1,20 @@
 .reviews {
     width: 100%;
     height: 70vh;
+    padding-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 26rem;
+    overflow: hidden;
 }
 
 .reviews .absolute {
     width: 90%;
+    height: 350px;
+    border-radius: 1rem;
+    background: linear-gradient(to bottom, #422E8C,#812AD2);
 }
 
 .reviews-block {
@@ -32,7 +37,7 @@
 .reviews-container h1 {
     width: 300px;
     text-align: start;
-    color: var(--color-violet-main);
+    color: var(--color-violet-secondary);
 }
 
 .arrow-container {
@@ -44,6 +49,90 @@
 }
 
 .comment {
-    width: 100%;
-    
+    width: 100%;   
+}
+
+.comment-ellement {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.397);
+    width: 90%;
+    padding: 4rem 0 4rem 1rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.splide__track {
+    overflow: unset;
+}
+
+.user {
+    position: absolute;
+    left: 3rem;
+    top: -2rem;
+    width: 70px;
+    height: 70px;
+    background-color: #812AD2;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockUnit {
+    width: 90%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.name h3{
+    text-align: start;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.description {
+    width: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.description .t2 {
+    color: var(--color-violet-main);
+}
+
+@media all and (max-width: 768px ) {
+    .comment-ellement {
+        position: relative;
+        width: 70%;
+        padding: 2rem;
+    }
+    .splide__slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .reviews .absolute {
+        width: 100%;
+        height: 20%;
+    }
+    .reviews-container {
+        width: 90%;
+        flex-direction: column;
+        align-items: start;
+        gap: 2rem;
+    }
+    .arrow-container {
+        justify-content: flex-start;
+    }
 }

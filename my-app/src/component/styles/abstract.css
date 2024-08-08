@@ -3,4 +3,45 @@
   height: 350px;
   background: linear-gradient(to bottom, #422E8C,#812AD2);
   border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+
+.content .t2 {
+  text-align: center;
+  max-width: 350px;
+}
+
+.downloadBtn {
+  cursor: pointer;
+}
+
+.content .downloadBtn {
+  background-color: white;
+  color: var(--color-violet-secondary);
+}
+
+.content .downloadBtn .t3-accent {
+  font-weight: 600;
+}
+
+.content .downloadBtn:hover {
+  background-color:  rgba(255, 255, 255, 0.822);
+}
+
+@media all and ( max-width: 768px ) {
+  .content {
+    width: 70%;
+  }
 }
