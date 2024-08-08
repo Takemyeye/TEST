@@ -1,3 +1,4 @@
+import { Menu } from "./component/headerUnit/menu"
 import "./styles/header.css"
 
 export function Header () {
@@ -8,20 +9,11 @@ export function Header () {
         <div className="leftCircle"></div>
       </div>
       <div className="rightPanel">
-        <div className="menu">
-          <a href="/">
-            <div className="t2">About us</div>
-          </a>
-          <a href="/">
-            <div className="t2">Features</div>
-          </a>
-          <a href="/">
-            <div className="t2">Blog</div>
-          </a>
-          <a href="/">
-            <div className="t2">Contact</div>
-          </a>
-        </div>
+        <Menu
+        t1="About us"
+        t2="Featurs"
+        t3="Blog"
+        t4="Contact"/>
         <div className="btn">
           <div className=".t3-accent">
             Download App
