@@ -1,0 +1,85 @@
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-bottom: 4rem;
+  gap: 2rem;
+}
+
+.footer-leftPanel {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer-leftPanel .logo {
+  position: relative;
+  left: 8px;
+  margin: 0;
+}
+
+.footer-leftPanel .logo .leftCircle {
+  background: rgba(153, 87, 219, 0.9);
+  width: 21px;
+  height: 21px;
+}
+
+.footer-leftPanel .logo .rightCircle {
+  background: #8158BF;
+  width: 21px;
+  height: 21px;
+}
+
+.footer-leftPanel .t3-accent {
+  color: var(--color-violet-main);
+  font-weight: 600;
+}
+
+.badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.footer-rightPanel {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-container h3 {
+  color: var(--color-violet-secondary);
+}
+
+.footer-container .t3-accent {
+  color: var(--color-violet-main);
+  font-weight: 600;
+}
+
+.t {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4px;
+}

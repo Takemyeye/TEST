@@ -42,3 +42,8 @@
     flex-direction: row;
     gap: 2rem;
 }
+
+.comment {
+    width: 100%;
+    
+}

@@ -1,7 +1,9 @@
+import { CommentUnit } from "./commentUnit";
+
 export function Comment () {
     return(
         <div className="comment">
-            1
+            <CommentUnit/>
         </div>
     )
 }

@@ -1,0 +1,6 @@
+.abstract {
+  width: 90%;
+  height: 350px;
+  background: linear-gradient(to bottom, #422E8C,#812AD2);
+  border-radius: 1rem;
+}
