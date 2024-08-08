@@ -1,5 +1,6 @@
 import React from 'react';
 import { Features } from "./features";
+import { Reviews } from './reviews';
 import { Header } from "./header";
 import { Modern } from './modern';
 import { Block } from "./block";
@@ -16,6 +17,7 @@ const Home = () => {
         <Block />
         <Modern/>
         <Time/>
+        <Reviews/>
     </main>
     </>
   )
