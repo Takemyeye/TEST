@@ -17,6 +17,17 @@
   gap: 1rem;
 }
 
+/* pricing.css */
+.pricing-block {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.pricing-block.is-visible {
+  opacity: 1;
+}
+
+
 .pricing-block h1 {
   color: var(--color-violet-secondary);
 }
@@ -34,6 +45,16 @@
   justify-content: center;
   flex-direction: row;
 }
+
+.pricing-container {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.pricing-container.is-visible {
+  opacity: 1;
+}
+
 
 .card {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.151);

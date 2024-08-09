@@ -57,6 +57,18 @@
   z-index: -1;
 }
 
+.modern {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.modern.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 @media all and (max-width: 1280px) {
   .absolute {
     background-size: cover;

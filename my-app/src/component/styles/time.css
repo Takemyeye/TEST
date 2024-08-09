@@ -31,6 +31,26 @@
   background-color: #3d2e87d3;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.container.is-visible {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
 @media all and ( max-width: 768px ) {
   .time-block {
     flex-direction: column;
